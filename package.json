@@ -1,0 +1,28 @@
+{
+  "name": "memorystream-cloud-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blue-Sky-Data-Engineering/memorystream-cloud-storage.git"
+  },
+  "author": "Hamish MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blue-Sky-Data-Engineering/memorystream-cloud-storage/issues"
+  },
+  "homepage": "https://github.com/Blue-Sky-Data-Engineering/memorystream-cloud-storage#readme",
+  "dependencies": {
+    "azure-storage": "^2.10.7",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
